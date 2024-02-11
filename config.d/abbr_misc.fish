@@ -15,3 +15,6 @@ abbr set-vol "wpctl set-volume @DEFAULT_AUDIO_SINK@"
 # audio (pamixer)
 # abbr get-vol "pamixer --get-volume"
 # abbr set-vol "pamixer --set-volume"
+
+# gnupg
+abbr unlock-card "gpg-connect-agent 'scd checkpin $KEY_SERIAL' /bye"
