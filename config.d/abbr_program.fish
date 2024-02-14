@@ -11,3 +11,5 @@ abbr logo "neofetch"
 # ripgrep
 abbr rgf "rg --files | rg"
 
+# fish
+abbr ta "tmux a"
