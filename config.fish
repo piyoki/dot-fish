@@ -18,6 +18,7 @@ fish_add_path $HOME/.tmux/plugins/t-smart-tmux-session-manager/bin
 ### Functions ###
 source $HOME/.config/fish/functions/bangbang.fish
 source $HOME/.config/fish/functions/gnupg.fish
+source $HOME/.config/fish/functions/_fzf_gopass.fish
 
 ### Theme ###
 source $HOME/.config/fish/themes/cool-beans-nix.fish
