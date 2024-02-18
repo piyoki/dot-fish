@@ -8,8 +8,9 @@ abbr top "btop"
 abbr weather "curl wttr.in/"
 abbr logo "neofetch"
 
+# tmux
+abbr ta "tmux a"
 # ripgrep
 abbr rgf "rg --files | rg"
-
-# fish
-abbr ta "tmux a"
+#fzf
+alias p="_fzf_gopass"
