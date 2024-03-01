@@ -46,6 +46,7 @@ source $HOME/.config/fish/config.d/abbr_git.fish
 source $HOME/.config/fish/config.d/abbr_misc.fish
 source $HOME/.config/fish/config.d/abbr_nix.fish
 source $HOME/.config/fish/config.d/abbr_program.fish
+source $HOME/.config/fish/config.d/abbr_system.fish
 
 ### Dev ENV ###
 
