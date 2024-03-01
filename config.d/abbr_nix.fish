@@ -1,5 +1,5 @@
 # nixos
-abbr rebuild "sudo nixos-rebuild switch --upgrade --flake .#nixos"
+abbr rebuild "sudo nixos-rebuild switch --upgrade --flake .#laptop"
 abbr prefetch-git "nix-prefetch-git --url 'https://github.com/yqlbu/' --rev 'refs/heads/x1-carbon'"
 abbr clean "sudo nix-collect-garbage -d"
 abbr update "sudo nix flake update"
