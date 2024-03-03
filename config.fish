@@ -12,7 +12,7 @@ fish_add_path $HOME/.npm-global/bin
 fish_add_path $HOME/.local/scripts
 fish_add_path $HOME/go/bin
 fish_add_path $HOME/.nix-profile/bin
-# fish_add_path $HOME/.tmux/plugins/t-smart-tmux-session-manager/bin
+fish_add_path $HOME/.tmux/plugins/t-smart-tmux-session-manager/bin
 # fish_add_path /usr/lib/jvm/default-runtime/bin
 
 ### Functions ###
@@ -46,6 +46,7 @@ source $HOME/.config/fish/config.d/abbr_git.fish
 source $HOME/.config/fish/config.d/abbr_misc.fish
 source $HOME/.config/fish/config.d/abbr_nix.fish
 source $HOME/.config/fish/config.d/abbr_program.fish
+source $HOME/.config/fish/config.d/abbr_system.fish
 
 ### Dev ENV ###
 
