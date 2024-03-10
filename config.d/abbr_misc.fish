@@ -18,3 +18,4 @@ abbr set-vol "wpctl set-volume @DEFAULT_AUDIO_SINK@"
 
 # gnupg
 abbr unlock-card "gpg-connect-agent 'scd checkpin $KEY_SERIAL' /bye"
+abbr uc "gpg-connect-agent 'scd checkpin $KEY_SERIAL' /bye"
