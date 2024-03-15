@@ -62,4 +62,4 @@ bind \cr _fzf_atuin_history
 zoxide init fish | source
 
 # atuin
-atuin init fish --disable-up-arrow | source
+atuin init fish --disable-up-arrow --disable-ctrl-r | source
