@@ -19,6 +19,7 @@ fish_add_path $HOME/.tmux/plugins/t-smart-tmux-session-manager/bin
 source $HOME/.config/fish/functions/bangbang.fish
 source $HOME/.config/fish/functions/gnupg.fish
 source $HOME/.config/fish/functions/_fzf_gopass.fish
+source $HOME/.config/fish/functions/_fzf_atuin_history.fish
 
 ### Theme ###
 source $HOME/.config/fish/themes/cool-beans-nix.fish
@@ -58,3 +59,6 @@ bind \co 'set old_tty (stty -g); stty sane; lf; stty $old_tty; commandline -f re
 
 # zoxide
 zoxide init fish | source
+
+# atuin
+atuin init fish --disable-up-arrow | source
