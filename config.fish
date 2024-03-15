@@ -52,7 +52,7 @@ source $HOME/.config/fish/config.d/abbr_system.fish
 ### Dev ENV ###
 
 # fzf key-remaps
-fzf_configure_bindings --git_status --history=\ch --variables=\cv --directory=\cx --git_log=\cg --atuin=\cr
+fzf_configure_bindings --git_status --history=\ch --variables=\cv --directory=\cx --git_log=\cg
 
 # lf history work-dir
 bind \co 'set old_tty (stty -g); stty sane; lf; stty $old_tty; commandline -f repaint'
@@ -61,4 +61,4 @@ bind \co 'set old_tty (stty -g); stty sane; lf; stty $old_tty; commandline -f re
 zoxide init fish | source
 
 # atuin
-atuin init fish --disable-up-arrow --disable-ctrl-r | source
+atuin init fish --disable-up-arrow | source
