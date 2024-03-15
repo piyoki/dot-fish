@@ -56,6 +56,7 @@ fzf_configure_bindings --git_status --history=\ch --variables=\cv --directory=\c
 
 # lf history work-dir
 bind \co 'set old_tty (stty -g); stty sane; lf; stty $old_tty; commandline -f repaint'
+bind \cr _fzf_atuin_history
 
 # zoxide
 zoxide init fish | source
