@@ -10,9 +10,6 @@ abbr du "du -d 1 -h"
 abbr rm "trash -v"
 abbr journal "journalctl -xefu"
 
-# ssh
-abbr ssh "kitten ssh"
-
 # pastebin
 alias pb="curl -F 'c=@-' https://fars.ee/"
 alias snips="ssh snips.sh"
