@@ -21,7 +21,7 @@ function fish_prompt
   set -g whitespace ' '
 
   if test $last_status = 0
-    set initial_indicator "$snow"
+    set initial_indicator "$snow⯁"
     set status_indicator "$normal❯$lightblue❯$lightblue2❯"
   else
     set initial_indicator "$red✖ $last_status"
