@@ -37,6 +37,8 @@ export LC_ALL=C.UTF-8
 # export SOPS_AGE_RECIPIENTS=(cat $HOME/.age/age-yubikey-master.pub)
 # export SOPS_AGE_KEY_FILE=$HOME/.age/age-yubikey-master.key
 
+export FZF_DEFAULT_OPTS_FILE=$HOME/.fzfrc
+
 ## Java
 export JAVA_HOME=/usr/lib/jvm/default
 
