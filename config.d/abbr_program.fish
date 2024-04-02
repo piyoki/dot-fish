@@ -12,5 +12,7 @@ abbr logo "neofetch"
 abbr ta "tmux a"
 # ripgrep
 abbr rgf "rg --files | rg"
-#fzf
+# fzf
 alias p="_fzf_gopass"
+# pwgen
+abbr genpass "pwgen -c -n -y -s -B 32 1"

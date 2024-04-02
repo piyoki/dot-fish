@@ -2,7 +2,7 @@
 ##  | | _______   __           HIKARI AI
 ##  | |/ / _ \ \ / /           https://hikariai.net
 ##  |   <  __/\ V /            https://link.hikariai.net
-##  |_|\_\___| \_/             https://github.com/yqlbu
+##  |_|\_\___| \_/             https://github.com/miooochi
 ##
 ##  My fish shell config. Nothing fancy, but I like it
 
