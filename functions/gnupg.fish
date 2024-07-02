@@ -7,3 +7,12 @@ set -x SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
 set -x GPG_TTY (tty)
 gpgconf --launch gpg-agent
 echo "UPDATESTARTUPTTY" | gpg-connect-agent > /dev/null 2>&1
+
+function gpg_reset
+  # kill existing gpg agent
+  gpgconf --kill gpg-agent
+  # reload agent
+  gpg-connect-agent reloadagent /bye
+  # insert the first Yubikey (which has a different serial number) and run the following command
+  gpg-connect-agent "scd serialno" "learn --force" /bye
+end
