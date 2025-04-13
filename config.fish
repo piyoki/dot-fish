@@ -13,6 +13,7 @@ fish_add_path $HOME/.local/scripts
 fish_add_path $HOME/go/bin
 fish_add_path $HOME/.nix-profile/bin
 fish_add_path $HOME/.tmux/plugins/t-smart-tmux-session-manager/bin
+fish_add_path $HOME/.tmuxifier/bin
 # fish_add_path /usr/lib/jvm/default-runtime/bin
 
 ### Functions ###
@@ -55,12 +56,11 @@ source $HOME/.config/fish/config.d/abbr_system.fish
 
 # fzf key-remaps
 fzf_configure_bindings --git_status --history=\ch --variables=\cv --directory=\cx --git_log=\cg
-
 # lf history work-dir
 bind \co 'set old_tty (stty -g); stty sane; lf; stty $old_tty; commandline -f repaint'
-
 # zoxide
 zoxide init fish | source
-
+# tmuxifier
+eval (tmuxifier init - fish)
 # atuin
 # atuin init fish --disable-up-arrow | source
