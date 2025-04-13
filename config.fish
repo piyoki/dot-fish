@@ -62,5 +62,6 @@ bind \co 'set old_tty (stty -g); stty sane; lf; stty $old_tty; commandline -f re
 zoxide init fish | source
 # tmuxifier
 eval (tmuxifier init - fish)
+set -gx TMUXIFIER_LAYOUT_PATH $HOME/.tmuxifier
 # atuin
 # atuin init fish --disable-up-arrow | source
