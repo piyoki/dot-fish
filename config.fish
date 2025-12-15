@@ -28,6 +28,7 @@ source $HOME/.config/fish/themes/cool-beans-nix.fish
 ### General Settings ###
 set fish_greeting # Turns off the intro message when pulling up fish shell
 set EDITOR "nvim" # Sets the $EDITOR to vim
+set -gx XDG_CONFIG_HOME $HOME/.config # Sets XDG_CONFIG_HOME
 
 export CLICOLOR=1
 export LS_COLORS=(vivid generate nord)
